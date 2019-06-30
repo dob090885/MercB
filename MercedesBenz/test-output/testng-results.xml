@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56898" started-at="2019-06-30T16:04:36Z" finished-at="2019-06-30T16:05:33Z">
+  <suite name="Suite" duration-ms="50362" started-at="2019-06-30T19:35:24Z" finished-at="2019-06-30T19:36:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56898" started-at="2019-06-30T16:04:36Z" finished-at="2019-06-30T16:05:33Z">
+    <test name="Test" duration-ms="50362" started-at="2019-06-30T19:35:24Z" finished-at="2019-06-30T19:36:14Z">
       <class name="MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest@d8355a8]" name="init" is-config="true" duration-ms="28594" started-at="2019-06-30T16:04:36Z" finished-at="2019-06-30T16:05:05Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest@6a4f787b]" name="init" is-config="true" duration-ms="20384" started-at="2019-06-30T19:35:24Z" finished-at="2019-06-30T19:35:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="orderWorkflowTest()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest@d8355a8]" name="orderWorkflowTest" duration-ms="26480" started-at="2019-06-30T16:05:05Z" finished-at="2019-06-30T16:05:31Z">
+        <test-method status="PASS" signature="orderWorkflowTest()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest@6a4f787b]" name="orderWorkflowTest" duration-ms="27926" started-at="2019-06-30T19:35:44Z" finished-at="2019-06-30T19:36:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderWorkflowTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest@d8355a8]" name="tearDown" is-config="true" duration-ms="1792" started-at="2019-06-30T16:05:31Z" finished-at="2019-06-30T16:05:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest@6a4f787b]" name="tearDown" is-config="true" duration-ms="2027" started-at="2019-06-30T19:36:12Z" finished-at="2019-06-30T19:36:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

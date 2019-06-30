@@ -81,7 +81,8 @@ public class Base {
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent.html");
+		//ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent.html");
+		
 	}
 	
 	

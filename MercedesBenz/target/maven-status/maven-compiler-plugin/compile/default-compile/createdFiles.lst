@@ -1,0 +1,7 @@
+pageObjects\MBShopHomepage.class
+pageObjects\VerificationAndOrderPlacement.class
+pageObjects\AddressAndDelivery.class
+MBOnlineShopWorklow\MercedesBenz\Base.class
+MBOnlineShopWorklow\MercedesBenz\Constant.class
+pageObjects\PaymentType.class
+pageObjects\ShoppingBasket.class
