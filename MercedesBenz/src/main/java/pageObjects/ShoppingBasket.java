@@ -16,17 +16,23 @@ public class ShoppingBasket {
 		this.driver = driver;
 	}
 	
-	public WebElement contToAddress() {
-		return driver.findElement(cont1);
-	}
-	
-	public WebElement placeOrderAsGuest() {
-		return driver.findElement(email);
+	public  void contToAddress() {
+		WebElement c1 = driver.findElement(cont1);
+		c1.click();
 		
 	}
 	
-	public WebElement contVerifNOrderPlcmt() {
-		return driver.findElement(cont2);
+
+	public void placeOrderAsGuestUser() {
+		WebElement e = driver.findElement(email);
+		e.sendKeys("blabla@gmail.com");
+		
+		
+	}
+	
+	public void goToVerificationAndOrderPlcmt() {
+		WebElement c2 = driver.findElement(cont2);
+		c2.click();
 	}
 
 }

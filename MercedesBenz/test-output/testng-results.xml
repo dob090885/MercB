@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27120" started-at="2019-06-30T00:05:13Z" finished-at="2019-06-30T00:05:40Z">
+  <suite name="Default suite" duration-ms="56898" started-at="2019-06-30T16:04:36Z" finished-at="2019-06-30T16:05:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27120" started-at="2019-06-30T00:05:13Z" finished-at="2019-06-30T00:05:40Z">
-      <class name="MBOnlineShopWorklow.MercedesBenz.OLWorkflowTest">
-        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OLWorkflowTest@1b604f19]" name="homePageNavigation" duration-ms="27093" started-at="2019-06-30T00:05:13Z" finished-at="2019-06-30T00:05:40Z">
+    <test name="Default test" duration-ms="56898" started-at="2019-06-30T16:04:36Z" finished-at="2019-06-30T16:05:33Z">
+      <class name="MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest@d8355a8]" name="init" is-config="true" duration-ms="28594" started-at="2019-06-30T16:04:36Z" finished-at="2019-06-30T16:05:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageNavigation -->
-      </class> <!-- MBOnlineShopWorklow.MercedesBenz.OLWorkflowTest -->
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="orderWorkflowTest()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest@d8355a8]" name="orderWorkflowTest" duration-ms="26480" started-at="2019-06-30T16:05:05Z" finished-at="2019-06-30T16:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderWorkflowTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest@d8355a8]" name="tearDown" is-config="true" duration-ms="1792" started-at="2019-06-30T16:05:31Z" finished-at="2019-06-30T16:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

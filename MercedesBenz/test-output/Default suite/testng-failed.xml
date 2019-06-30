@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MBOnlineShopWorklow.MercedesBenz.OLWorkflowTest">
+      <class name="MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest">
         <methods>
-          <include name="homePageNavigation"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="orderWorkflowTest"/>
         </methods>
-      </class> <!-- MBOnlineShopWorklow.MercedesBenz.OLWorkflowTest -->
+      </class> <!-- MBOnlineShopWorklow.MercedesBenz.OrderWorkflowTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

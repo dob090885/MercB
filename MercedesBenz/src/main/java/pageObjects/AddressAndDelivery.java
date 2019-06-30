@@ -4,11 +4,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import MBOnlineShopWorklow.MercedesBenz.Base;
+
 public class AddressAndDelivery {
 	
 	public WebDriver driver;
 	
-	By mr = By.xpath("/html/body/div[1]/div/div/div[2]/div/div[4]/co-grid-shipping/div/div/div/div/div[1]/co-payment-address/div/div[1]/utils-dynamic-form/div/form/div[1]/div[1]/label");
+	//By sal = By.cssSelector("div.wb-e-radio-3__wrapper:nth-child(2) > label:nth-child(2)");
+	By sal = By.xpath("//label[text()='Mr']");
 	By firstName = By.name("co_payment_address-firstName");
 	By lastName = By.name("co_payment_address-lastName");
 	By line2 = By.name("co_payment_address-line2");
@@ -22,7 +25,7 @@ public class AddressAndDelivery {
 	}
 	
 	public WebElement salutation() {
-		return driver.findElement(mr);
+		return driver.findElement(sal);
 	}
 	
 	public WebElement firstName() {
@@ -49,7 +52,20 @@ public class AddressAndDelivery {
 		return driver.findElement(postalCode);
 	}
 	
-	public WebElement contToPayment() {
-		return driver.findElement(contToPayment);
+	public PaymentType contToPaymentPage() {
+		WebElement c = driver.findElement(contToPayment);
+		c.click();
+		return new PaymentType(driver);
 	} 
+	
+	public void enterAddressAndDeliveryDetails() throws InterruptedException {
+		salutation().click();
+		firstName().sendKeys(Base.firstName);
+		lastName().sendKeys(Base.lastName);
+		addressLine2().sendKeys(Base.addressLine2);
+		addressLine1().sendKeys(Base.addressLine1);
+		town().sendKeys(Base.city);
+		postalCode().sendKeys(Base.postalCode);
+		Thread.sleep(1000);
+	}
 }
