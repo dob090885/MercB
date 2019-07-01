@@ -23,7 +23,7 @@ Steps to run the project:
 
 Test report location:
 1. Simple TestNG report will be displayed on command prompt
-2. I configure 'Extent' report and can be found on the same location where pom.xml file is present
+2. 'ExtendReports.html' can be found on the same location where pom.xml file is present
 
 
 
