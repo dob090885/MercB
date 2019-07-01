@@ -6,7 +6,7 @@ System requirements:
 3. Chrome version 75.0.3770.100 (Offizieller Build) (64-Bit) as I configure chrome driver for the same
 4. Firefox must be installed in your system
 
-GitHib Repository:
+GitHub Repository:
 To clone the project, here is the GitHub link "https://github.com/dob090885/MercB.git"
 
 Tools:
